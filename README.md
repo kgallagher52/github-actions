@@ -1,36 +1,46 @@
-# github-actions
+# Getting Started with Create React App
 
-  This Repo is for learning and mastering Github Actions/Workflows
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Resources 
-[Udemy Course](https://www.electronjs.org/docs/latest/api/web-frame)
+## Available Scripts
 
-# What Is CI / CD
-1. CI - Continuous Integration
-    - Code changes are automatically built, tested & merged with existing code
-2. CD - Continuous Delivery
-    - After integration, new app or package versions are published automatically
+In the project directory, you can run:
 
-# GitHub Actions - Basic Building Blocks & Components
+### `npm start`
 
-## Key Elements
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Hierarchy: workflows > jobs > steps
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-1. Workflows
-  - Attached to a repository 
-  - Has one or more **jobs**
-  - Triggered upon **Events**
-2. Jobs
-  - Define a **Runner** (execution environment)
-  - Contain one or more **Steps** 
-  - Run in parallel (default) or sequential
-  - Can be conditional
-3. Steps
-  - Execute a **shell script** or an **Action**
-  - Can use custom or third-party actions
-  - Steps are executed in order
-  - Can be conditional 
+### `npm test`
 
-- Private repositories have monthly usage is available for free. Public repositories are free
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
