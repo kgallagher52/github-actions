@@ -17,8 +17,7 @@ jobs:
         with:
           version: 8.4
       - name: Install Dependencies
-        # pnpm ci is safer then pnpm install it locks in packages
-        run: pnpm ci
+        run: pnpm install
       - name: Run tests
         run: pnpm test
 
