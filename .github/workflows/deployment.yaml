@@ -21,6 +21,8 @@ jobs:
       - name: Run tests
         run: pnpm test
   deploy:
+    # Specify that this will run after the test job
+    needs: test 
     runs-on: ubuntu-latest
     steps: 
       # Use Action to grab our code from the repo
