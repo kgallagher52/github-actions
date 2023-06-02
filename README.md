@@ -11,6 +11,7 @@
 
   [GitHub Marketplace for Actions](https://github.com/marketplace?type=)
 
+  [GitHub action context](https://docs.github.com/en/actions/learn-github-actions/contexts)
 # What Is CI / CD
   1. CI - Continuous Integration
         - Code changes are automatically built, tested & merged with existing code
