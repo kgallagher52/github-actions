@@ -65,6 +65,7 @@
   - *** Each Job has it's own VM & Runner
 
 ## Jobs in Parallel vs Sequential 
+  - *** Parallel is default
   - If you want a job to run after another job you can specify it with the needs key word
   ```yaml
       needs: test
