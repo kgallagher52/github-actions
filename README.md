@@ -60,3 +60,6 @@
       ```yaml
       run: echo "I am a command instead of a action :)"
       ```
+## Adding Multiple Jobs 
+  - *** Each Job has it's own VM & Runner
+  
