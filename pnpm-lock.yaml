@@ -22,6 +22,12 @@ dependencies:
   '@types/react-dom':
     specifier: ^18.2.4
     version: 18.2.4
+  eslint:
+    specifier: ^8.41.0
+    version: 8.41.0
+  eslint-plugin-react:
+    specifier: ^7.32.2
+    version: 7.32.2(eslint@8.41.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
