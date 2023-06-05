@@ -17,7 +17,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8.4
-          
+
       - name: Install dependencies
         run: pnpm install
 
@@ -40,8 +40,11 @@ jobs:
         with:
           version: 8.4
 
-      - name: Lint
-        run: pnpm run lint
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: test
+        run: pnpm run test
 
   deploy: 
     runs-on: ubuntu-latest
@@ -58,6 +61,9 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8.4
+
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Build
         run: pnpm run build
