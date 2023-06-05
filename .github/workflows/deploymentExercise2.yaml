@@ -10,8 +10,8 @@ jobs:
         
       - name: Install NodeJS
         uses: actions/setup-node@v3
-          with: 
-            node-version: 18.16
+        with: 
+          node-version: 18.16
 
       - name: Install PNPM 
         uses: pnpm/action-setup@v2
@@ -19,7 +19,7 @@ jobs:
           version: 8.4
 
       - name: Lint
-          run: pnpm run lint
+        run: pnpm run lint
 
   test:
     runs-on: ubuntu-latest
@@ -29,8 +29,8 @@ jobs:
 
       - name: Install NodeJS
         uses: actions/setup-node@v3
-          with: 
-            node-version: 18.16
+        with: 
+          node-version: 18.16
 
       - name: Install PNPM 
         uses: pnpm/action-setup@v2
@@ -38,7 +38,7 @@ jobs:
           version: 8.4
 
       - name: Lint
-          run: pnpm run lint
+        run: pnpm run lint
 
   deploy: 
     runs-on: ubuntu-latest
@@ -57,7 +57,7 @@ jobs:
           version: 8.4
 
       - name: Build
-          run: pnpm run build
+        run: pnpm run build
           
       - name: Deploy
-          run: echo "Deployment would go here!"
+        run: echo "Deployment would go here!"
